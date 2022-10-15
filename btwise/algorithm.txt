@@ -1,0 +1,1 @@
+write an algo that tells the user niba sum yimibare ibiri ari odd or even
