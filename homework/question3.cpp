@@ -7,7 +7,6 @@ void findRoots(int a,int b,int c){
     cout<<"(   x1== "<<x1<<" and x2== "<<x2<<")";
     
  }
- 
 int main(){
  int a,b,c;
  cout<<"enter A for the formula:"<<endl;
