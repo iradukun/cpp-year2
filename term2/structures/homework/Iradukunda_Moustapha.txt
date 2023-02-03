@@ -60,10 +60,10 @@ int main()
         // cout<<"Full names: ";
         while(true){
         cout << "Full names:: "<<flush;
-        cin >> a[i].name;
+        getline(cin,a[i].name);
         if ( !std::cin.fail() )
         {
-            for ( char &c : a[i].name )
+            for ( char &c : a[i].name ) 
             {
                 if ( !std::isalpha( c ) )
                     goto input_invalid;
